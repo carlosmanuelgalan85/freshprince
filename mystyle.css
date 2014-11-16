@@ -1,0 +1,75 @@
+
+body{
+	font-family: 'Open Sans',helvetica,sans-serif;
+	line-height: 1.8em;
+}
+
+.masthead-intro,.masthead-heading{
+  text-align:center;
+}
+
+.masthead-heading{
+	font-size: 4em;
+	color: #626759;
+	font-family: 'Gentium Book Basic',serif;
+	text-transform: uppercase;
+}
+
+.masthead{
+  margin-bottom: 5em;
+  padding: 6em 0;
+  background-image: url("https://ununsplash.imgix.net/photo-1415226194219-638f50c5d25f?fit=crop&fm=jpg&h=725&q=75&w=950");
+  background-size:cover;
+  background-size:contain;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat:no-repeat;
+  border-top: 0.8em solid #505050;
+}
+
+section{
+	border: 2px solid #ccc;
+	padding: 10px;
+	border-radius: 10px 20px 10px;
+	box-shadow: 3px 3px #ccc;
+}
+
+section,footer{
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+section h1,h2{
+	font-weight: bold;
+	color: #D1A000;
+}
+
+footer{padding: 3em 0;
+	margin-top: 5em;
+	background-color: #594F49;
+}
+
+footer ul{
+	list-style: none;
+	width: 15em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer ul > li{
+	display: inline-block;
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+a{
+	color: #D1A000;
+	text-decoration: none;
+	font-weight: bold;
+}
