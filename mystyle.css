@@ -1,4 +1,11 @@
 
+/*Media Queries*/
+
+/*Altering the Main Heading*/
+
+
+
+
 body{
 	font-family: 'Open Sans',helvetica,sans-serif;
 	line-height: 1.8em;
@@ -46,7 +53,8 @@ section h1,h2{
 	color: #D1A000;
 }
 
-footer{padding: 3em 0;
+footer{
+	padding: 3em 0;
 	margin-top: 5em;
 	background-color: #594F49;
 }
@@ -72,4 +80,29 @@ a{
 	color: #D1A000;
 	text-decoration: none;
 	font-weight: bold;
+}
+
+@media screen and (max-width: 500px){
+	.masthead{
+		padding: 3em 0;
+	}
+	.masthead-heading{
+		font-size: 3em;
+	}
+
+	section h1{
+		font-size: 1em;
+	}
+
+	p{
+		font-size: 0.9em;
+	}
+
+	section h2{
+		font-size: 0.91em;
+	}
+
+	footer{
+		padding: 3em 0;
+	}
 }
